@@ -1,0 +1,93 @@
+body {
+    background-color: #FCF5C7;
+}
+nav {
+    background-color: #FCF5C7;
+}
+
+header {
+    background-color: white;
+}
+.navbar-brand {
+    color: black;
+}
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+h1:hover  {transform: rotate(360deg);
+    animation: rotate .5s linear 0s;
+}
+    
+    @keyframes rotate {
+       from{
+           transform: rotate(0deg);
+       }
+       to {
+           transform:rotate(360deg);
+       }
+    }
+
+section {
+    background-color: white;
+}
+
+aside {
+    background-color: white;
+}
+
+.border {
+    margin: 20px;
+}
+
+form {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+}
+
+#pradomuseum {
+    transition: transform .3s linear 0s
+}
+
+#pradomuseum:hover {
+    transform: skewX(-20deg);
+}
+
+#serolla{
+    transition: transform .3s linear 0s
+}
+
+#serolla:hover {
+    transform: skewX(20deg);
+}
+
+#barraca {
+    transition: transform .5s linear 0s
+}
+#barraca:hover {
+    transform: scale(0.5);
+}
+
+#botin {
+    transition: transform .5s linear 0s
+}
+#botin:hover {
+    transform: scale(2);
+}
